@@ -1,4 +1,7 @@
 {
+	"name": "webengineblueprints/hello-world",
+	"description": "A blueprint with only the basic files in place.",
+
 	"minimum-stability": "dev",
 
 	"require": {
