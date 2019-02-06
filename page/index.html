@@ -6,6 +6,17 @@
 	<title>WebEngine: Empty blueprint</title>
 </head>
 <body>
-	<h1>Hello, World!</h1>
+	<h1>Hello, <span data-bind:text="your-name">World</span>!</h1>
+
+	<p>Type your name into the form below to be greeted.</p>
+
+	<form>
+		<label>
+			<span>Your name:</span>
+			<input name="your-name" placeholder="e.g. Rasmus Lerdorf" required />
+		</label>
+
+		<button name="do" value="greet">Greet!</button>
+	</form>
 </body>
 </html>
