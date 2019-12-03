@@ -24,6 +24,6 @@ class IndexPage extends Page {
 // data-bind attribute matching the key in the input data: `your-name`, so the
 // value is bound automatically.
 // Docs: https://www.php.gt/docs/webengine/binding-data-to-the-dom
-		$this->document->bind($data);
+		$this->document->bindData($data);
 	}
 }
